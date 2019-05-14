@@ -11,6 +11,10 @@ import Firebase
 
 class HomeViewController: UIViewController {
 
+    @IBAction func loadSearch(_ sender: Any) {
+        self.performSegue(withIdentifier: "searchScreen", sender: sender)
+    }
+    
     @IBAction func logOutAction(_ sender: Any) {
         do {
             try Auth.auth().signOut()

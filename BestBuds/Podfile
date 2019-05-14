@@ -9,6 +9,7 @@ target 'BestBuds' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
   target 'BestBudsTests' do
     inherit! :search_paths
