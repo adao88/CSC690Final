@@ -11,25 +11,15 @@ import Foundation
 class Strain {
     var name: String
     var type: String
-    var reviews = [String]()
+    var reviews: Int
     var effects = [String]()
     var childKey: String
     
-    init(name: String, type: String, effects: [String], reviews: [String], childKey: String) {
+    init(name: String, type: String, effects: [String], reviews: Int, childKey: String) {
         self.name = name
         self.type = type
         self.effects = effects
         self.reviews = reviews
         self.childKey = childKey
-    }
-    
-    var displayText: String {
-        return "name: \(name) type: \(type)  reviews: \(reviews.count)"
-    }
-}
-
-extension Strain: CustomStringConvertible {
-    var description: String {
-        return displayText
     }
 }

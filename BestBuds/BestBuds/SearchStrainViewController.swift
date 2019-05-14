@@ -61,13 +61,28 @@ class SearchStrainViewController: UIViewController, UITableViewDelegate, UITable
                 let name = dict["name"] as! String
                 let type = dict["type"] as! String
                 let effects = dict["effects"] as! [String]
-                let reviews = dict["reviews"] as? [String]
+                let reviews = 0
                 
-                let strain = Strain(name: name, type: type, effects: effects, reviews: reviews ?? [], childKey: stringChild)
+                let strain = Strain(name: name, type: type, effects: effects, reviews: reviews, childKey: stringChild)
                 self.strainData.append(strain)
                 self.cpyData.append(strain)
                 
                 self.tableView.reloadData()
+            }
+        })
+        
+        ref = Database.database().reference().child("Reviews")
+        
+        databaseHandle = ref?.observe(.value, with: {snapshot in
+            for child in snapshot.children {
+                let childSnap = child as! DataSnapshot
+                let dict = childSnap.value as! [String: Any]
+                let strain = dict["strain"] as! String
+                for strainObj in self.strainData {
+                    if(strain == strainObj.name) {
+                        strainObj.reviews = strainObj.reviews + 1;
+                    }
+                }
             }
         })
     }
@@ -100,7 +115,7 @@ class SearchStrainViewController: UIViewController, UITableViewDelegate, UITable
 
         self.strainText = strain.name
         self.strainType = strain.type
-        self.strainReviewCount = strain.reviews.count
+        self.strainReviewCount = strain.reviews
         self.strainEffects = strain.effects
         self.strainKey = strain.childKey
 

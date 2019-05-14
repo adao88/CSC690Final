@@ -74,6 +74,7 @@ class StrainViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         nameLabel.text = finalName
         typeLabel.text = finalType
+        reviewCountLabel.text = "Reviews: " + String(finalReviewCount)
         
         ref = Database.database().reference().child("Reviews")
         
