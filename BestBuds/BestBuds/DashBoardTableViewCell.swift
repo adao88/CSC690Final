@@ -1,22 +1,16 @@
 //
-//  ReviewTableViewCell.swift
+//  DashBoardTableViewCell.swift
 //  BestBuds
 //
-//  Created by Khoi Dao on 5/14/19.
+//  Created by An Dao on 5/15/19.
 //  Copyright © 2019 An Dao & Kenneth Surban. All rights reserved.
 //
 
 import UIKit
 
-class ReviewTableViewCell: UITableViewCell {
+class DashBoardTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var usernameLabel: UILabel!
-    
-    @IBOutlet weak var dateLabel: UILabel!
-    
-    @IBOutlet weak var contentLabel: UILabel!
-    
-    
+    @IBOutlet weak var titlelabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

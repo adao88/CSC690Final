@@ -11,6 +11,9 @@ import Firebase
 
 class HomeViewController: UIViewController {
 
+    @IBAction func loadDash(_ sender: Any) {
+        self.performSegue(withIdentifier: "GoToDashBoard", sender: self)
+    }
     @IBAction func loadSearch(_ sender: Any) {
         self.performSegue(withIdentifier: "searchScreen", sender: sender)
     }

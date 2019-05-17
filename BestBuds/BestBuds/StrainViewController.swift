@@ -26,6 +26,33 @@ class StrainViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var ref: DatabaseReference?
     var databaseHandle: DatabaseHandle?
 
+    @IBAction func backAction(_ sender: Any) {
+        performSegue(withIdentifier: "GoBackToSearch", sender: self)
+    }
+    @IBAction func AddToFavorites(_ sender: Any) {
+        let strainName = nameLabel.text
+        
+        ref =  Database.database().reference()
+        let key = strainName
+        guard let userKey = Auth.auth().currentUser?.displayName
+            else {
+                return
+        }
+        
+        ref?.child("Favorites").child(userKey).observeSingleEvent(of: .value, with: {snapshot in
+            var count = "0"
+            if let values = snapshot.value as? [String]{
+                count = String(describing: values.count)
+            }
+            var newFavorite = [String: String]()
+            newFavorite[count] = key
+            self.ref?.child("Favorites").child(userKey).updateChildValues(newFavorite)
+            
+        })
+        
+        //
+        
+    }
     @IBAction func submitReview(_ sender: Any) {
         guard
             let reviewInput = reviewField.text
@@ -52,9 +79,13 @@ class StrainViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         ref = Database.database().reference().child("Reviews")
         
+        
+        
         let key = (ref?.childByAutoId().key)!
         
-        ref?.child(key).setValue(strain)
+        
+        
+       ref?.child(key).setValue(strain)
         
         reviewResults.removeAll()
     }

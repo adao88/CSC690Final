@@ -7,24 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D950C7E228BECBE00053E36 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D950C7D228BECBE00053E36 /* DashBoardViewController.swift */; };
+		4D950C80228BF11D00053E36 /* DashBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D950C7F228BF11D00053E36 /* DashBoardTableViewCell.swift */; };
 		4DD0506E2275C13D00F6A5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0506D2275C13D00F6A5AF /* AppDelegate.swift */; };
 		4DD050732275C13D00F6A5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD050712275C13D00F6A5AF /* Main.storyboard */; };
 		4DD050752275C14100F6A5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD050742275C14100F6A5AF /* Assets.xcassets */; };
 		4DD050782275C14100F6A5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD050762275C14100F6A5AF /* LaunchScreen.storyboard */; };
 		4DD050832275C14100F6A5AF /* BestBudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD050822275C14100F6A5AF /* BestBudsTests.swift */; };
 		4DD0508E2275C14100F6A5AF /* BestBudsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0508D2275C14100F6A5AF /* BestBudsUITests.swift */; };
-		4DD0509C2277C86200F6A5AF /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0509B2277C86200F6A5AF /* StartViewController.swift */; };
-		4DD0509E2277C8A600F6A5AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0509D2277C8A600F6A5AF /* LoginViewController.swift */; };
 		4DD050A02277C8BC00F6A5AF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0509F2277C8BC00F6A5AF /* SignUpViewController.swift */; };
-		4DD050A22277C8CD00F6A5AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD050A12277C8CD00F6A5AF /* HomeViewController.swift */; };
 		4DD050A422791DCE00F6A5AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DD050A322791DCE00F6A5AF /* GoogleService-Info.plist */; };
+		4DDEC989228BEC7C00967336 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEC976228BEC7C00967336 /* TableViewCell.swift */; };
+		4DDEC98B228BEC7C00967336 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEC978228BEC7C00967336 /* HomeViewController.swift */; };
+		4DDEC98C228BEC7C00967336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEC979228BEC7C00967336 /* LaunchScreen.storyboard */; };
+		4DDEC98D228BEC7C00967336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEC97B228BEC7C00967336 /* Main.storyboard */; };
+		4DDEC98E228BEC7C00967336 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEC97D228BEC7C00967336 /* StartViewController.swift */; };
+		4DDEC990228BEC7C00967336 /* StrainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEC97F228BEC7C00967336 /* StrainTableViewCell.swift */; };
+		4DDEC991228BEC7C00967336 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEC980228BEC7C00967336 /* LoginViewController.swift */; };
+		4DDEC995228BEC7C00967336 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEC984228BEC7C00967336 /* Info.plist */; };
 		55B24501C9697B659BE09CBC /* Pods_BestBuds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE9B84180C2F15A2428EBFE /* Pods_BestBuds.framework */; };
 		6526E467228AC91F00FB0348 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526E466228AC91F00FB0348 /* Review.swift */; };
 		652ADF9F2289497B003F98A3 /* SearchStrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652ADF9E2289497B003F98A3 /* SearchStrainViewController.swift */; };
-		652ADFA122894B05003F98A3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652ADFA022894B05003F98A3 /* TableViewCell.swift */; };
 		652ADFA322894DF7003F98A3 /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652ADFA222894DF7003F98A3 /* Strain.swift */; };
 		652ADFA522896EFD003F98A3 /* StrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652ADFA422896EFD003F98A3 /* StrainViewController.swift */; };
-		652ADFA722897610003F98A3 /* StrainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652ADFA622897610003F98A3 /* StrainTableViewCell.swift */; };
 		65BFD39A228B5D9000BD54DB /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFD399228B5D9000BD54DB /* ReviewTableViewCell.swift */; };
 		A75D947130D96AAEFCAF1160 /* Pods_BestBudsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401B79B40E453D9FD9120164 /* Pods_BestBudsTests.framework */; };
 		F2E074081EB219741B93570D /* Pods_BestBudsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E98FEE0373575924D51D79 /* Pods_BestBudsUITests.framework */; };
@@ -50,6 +55,8 @@
 /* Begin PBXFileReference section */
 		32E98FEE0373575924D51D79 /* Pods_BestBudsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestBudsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B79B40E453D9FD9120164 /* Pods_BestBudsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestBudsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D950C7D228BECBE00053E36 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		4D950C7F228BF11D00053E36 /* DashBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTableViewCell.swift; sourceTree = "<group>"; };
 		4DD0506A2275C13D00F6A5AF /* BestBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD0506D2275C13D00F6A5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DD050722275C13D00F6A5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +74,23 @@
 		4DD0509F2277C8BC00F6A5AF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4DD050A12277C8CD00F6A5AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4DD050A322791DCE00F6A5AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DDEC972228BEC7C00967336 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4DDEC973228BEC7C00967336 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		4DDEC974228BEC7C00967336 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		4DDEC975228BEC7C00967336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDEC976228BEC7C00967336 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4DDEC977228BEC7C00967336 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DDEC978228BEC7C00967336 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4DDEC97A228BEC7C00967336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DDEC97C228BEC7C00967336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DDEC97D228BEC7C00967336 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4DDEC97E228BEC7C00967336 /* StrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrainViewController.swift; sourceTree = "<group>"; };
+		4DDEC97F228BEC7C00967336 /* StrainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrainTableViewCell.swift; sourceTree = "<group>"; };
+		4DDEC980228BEC7C00967336 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4DDEC981228BEC7C00967336 /* Strain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strain.swift; sourceTree = "<group>"; };
+		4DDEC982228BEC7C00967336 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DDEC983228BEC7C00967336 /* SearchStrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchStrainViewController.swift; sourceTree = "<group>"; };
+		4DDEC984228BEC7C00967336 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6526E466228AC91F00FB0348 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		652ADF9E2289497B003F98A3 /* SearchStrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStrainViewController.swift; sourceTree = "<group>"; };
 		652ADFA022894B05003F98A3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -159,6 +183,7 @@
 				6526E466228AC91F00FB0348 /* Review.swift */,
 				65BFD399228B5D9000BD54DB /* ReviewTableViewCell.swift */,
 				4DD050712275C13D00F6A5AF /* Main.storyboard */,
+				4DDEC971228BEC7C00967336 /* BestBuds */,
 				4DD050742275C14100F6A5AF /* Assets.xcassets */,
 				4DD050762275C14100F6A5AF /* LaunchScreen.storyboard */,
 				4DD050A322791DCE00F6A5AF /* GoogleService-Info.plist */,
@@ -183,6 +208,32 @@
 				4DD0508F2275C14100F6A5AF /* Info.plist */,
 			);
 			path = BestBudsUITests;
+			sourceTree = "<group>";
+		};
+		4DDEC971228BEC7C00967336 /* BestBuds */ = {
+			isa = PBXGroup;
+			children = (
+				4DDEC972228BEC7C00967336 /* SignUpViewController.swift */,
+				4D950C7F228BF11D00053E36 /* DashBoardTableViewCell.swift */,
+				4DDEC973228BEC7C00967336 /* Review.swift */,
+				4DDEC974228BEC7C00967336 /* ReviewTableViewCell.swift */,
+				4D950C7D228BECBE00053E36 /* DashBoardViewController.swift */,
+				4DDEC975228BEC7C00967336 /* Assets.xcassets */,
+				4DDEC976228BEC7C00967336 /* TableViewCell.swift */,
+				4DDEC977228BEC7C00967336 /* GoogleService-Info.plist */,
+				4DDEC978228BEC7C00967336 /* HomeViewController.swift */,
+				4DDEC979228BEC7C00967336 /* LaunchScreen.storyboard */,
+				4DDEC97B228BEC7C00967336 /* Main.storyboard */,
+				4DDEC97D228BEC7C00967336 /* StartViewController.swift */,
+				4DDEC97E228BEC7C00967336 /* StrainViewController.swift */,
+				4DDEC97F228BEC7C00967336 /* StrainTableViewCell.swift */,
+				4DDEC980228BEC7C00967336 /* LoginViewController.swift */,
+				4DDEC981228BEC7C00967336 /* Strain.swift */,
+				4DDEC982228BEC7C00967336 /* AppDelegate.swift */,
+				4DDEC983228BEC7C00967336 /* SearchStrainViewController.swift */,
+				4DDEC984228BEC7C00967336 /* Info.plist */,
+			);
+			name = BestBuds;
 			sourceTree = "<group>";
 		};
 		D214CDEBE5815C3E69C137F1 /* Pods */ = {
@@ -308,8 +359,11 @@
 			files = (
 				4DD050782275C14100F6A5AF /* LaunchScreen.storyboard in Resources */,
 				4DD050A422791DCE00F6A5AF /* GoogleService-Info.plist in Resources */,
+				4DDEC995228BEC7C00967336 /* Info.plist in Resources */,
 				4DD050752275C14100F6A5AF /* Assets.xcassets in Resources */,
+				4DDEC98D228BEC7C00967336 /* Main.storyboard in Resources */,
 				4DD050732275C13D00F6A5AF /* Main.storyboard in Resources */,
+				4DDEC98C228BEC7C00967336 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,18 +485,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDEC991228BEC7C00967336 /* LoginViewController.swift in Sources */,
 				652ADFA322894DF7003F98A3 /* Strain.swift in Sources */,
+				4DDEC989228BEC7C00967336 /* TableViewCell.swift in Sources */,
 				65BFD39A228B5D9000BD54DB /* ReviewTableViewCell.swift in Sources */,
+				4DDEC98B228BEC7C00967336 /* HomeViewController.swift in Sources */,
 				652ADFA522896EFD003F98A3 /* StrainViewController.swift in Sources */,
+				4DDEC98E228BEC7C00967336 /* StartViewController.swift in Sources */,
 				652ADF9F2289497B003F98A3 /* SearchStrainViewController.swift in Sources */,
-				4DD050A22277C8CD00F6A5AF /* HomeViewController.swift in Sources */,
-				4DD0509E2277C8A600F6A5AF /* LoginViewController.swift in Sources */,
+				4DDEC990228BEC7C00967336 /* StrainTableViewCell.swift in Sources */,
 				4DD0506E2275C13D00F6A5AF /* AppDelegate.swift in Sources */,
+				4D950C80228BF11D00053E36 /* DashBoardTableViewCell.swift in Sources */,
+				4D950C7E228BECBE00053E36 /* DashBoardViewController.swift in Sources */,
 				6526E467228AC91F00FB0348 /* Review.swift in Sources */,
 				4DD050A02277C8BC00F6A5AF /* SignUpViewController.swift in Sources */,
-				652ADFA122894B05003F98A3 /* TableViewCell.swift in Sources */,
-				652ADFA722897610003F98A3 /* StrainTableViewCell.swift in Sources */,
-				4DD0509C2277C86200F6A5AF /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +548,22 @@
 				4DD050772275C14100F6A5AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDEC979228BEC7C00967336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDEC97A228BEC7C00967336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDEC97B228BEC7C00967336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDEC97C228BEC7C00967336 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

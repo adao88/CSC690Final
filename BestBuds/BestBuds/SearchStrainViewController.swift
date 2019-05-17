@@ -15,6 +15,17 @@ class SearchStrainViewController: UIViewController, UITableViewDelegate, UITable
     
     @IBOutlet weak var searchField: UITextField!
     
+    @IBAction func backAction(_ sender: Any) {
+        performSegue(withIdentifier: "SearchToHome", sender: self)
+        
+        //prepare(for: <#T##UIStoryboardSegue#>, sender: <#T##Any?#>)
+        //let vc = HomeViewController()
+        //present(vc, animated: true, completion: nil)
+        
+        
+        //self.performSegue(withIdentifier: "BackToHome", sender: self)
+       
+    }
     @IBAction func searchButton(_ sender: Any) {
         guard
             let searchInput = searchField.text
@@ -123,6 +134,9 @@ class SearchStrainViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (segue.identifier == "strainNav") {
+        
         let vc = segue.destination as! StrainViewController
         vc.finalName = self.strainText
         vc.finalType = self.strainType
@@ -130,5 +144,9 @@ class SearchStrainViewController: UIViewController, UITableViewDelegate, UITable
         vc.finalEffects = self.strainEffects
         vc.finalKey = self.strainKey
     }
+        else if (segue.identifier == "SearchToHome"){
+            let vc = segue.destination as! HomeViewController
+        }
     
+}
 }

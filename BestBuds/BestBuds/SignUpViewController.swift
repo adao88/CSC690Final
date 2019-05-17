@@ -14,11 +14,14 @@ import Firebase
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var displayName: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var passwordConfirm: UITextField!
    
     
+    @IBAction func backToSearch(_ sender: Any) {
+    }
     
     @IBAction func signUpAction(_ sender: Any) {
         
@@ -41,6 +44,20 @@ class SignUpViewController: UIViewController {
                     
                     alertController.addAction(defaultAction)
                     self.present(alertController, animated: true, completion: nil)
+                }
+                let user = Auth.auth().currentUser
+                if let user = user {
+                    let changeRequest = user.createProfileChangeRequest()
+                    
+                    changeRequest.displayName = self.displayName.text
+                    
+                    changeRequest.commitChanges { error in
+                        if let error = error {
+                            // An error happened.
+                        } else {
+                            // Profile updated.
+                        }
+                    }
                 }
             }
         }
